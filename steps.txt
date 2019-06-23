@@ -1,0 +1,3 @@
+
+mvn clean test "-Dbrowser=chrome" "-Denv=pp1" "-Dtest=BaseRunner" "-Dcucumber.options=--tags @search  --plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"
+allure serve allure-results

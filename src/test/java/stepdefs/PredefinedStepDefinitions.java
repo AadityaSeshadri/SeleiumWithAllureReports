@@ -8,6 +8,10 @@ import com.qa.tlv.methods.SelectorType;
 import com.qa.tlv.methods.TestCaseFailed;
 
 import cucumber.api.java.en.Then;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 
 public class PredefinedStepDefinitions implements BaseTest {
 
@@ -19,6 +23,9 @@ public class PredefinedStepDefinitions implements BaseTest {
         browser.navigateTo(link);
     }
 
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Login Test")
+    @Story("Story Name : MOE213")
     // Step to navigate to base URL
     @Then("^user opens base lobby$")
     public void navigate_to_lobby() throws IOException {
