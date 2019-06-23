@@ -59,16 +59,4 @@ Please read [CONTRIBUTING.md](doc/CONTRIBUTING.md) for details of the process fo
 Versioning
 -------------
 [SemVer](http://semver.org/) is in use for versioning.   
-For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-Authors
--------------
-**Pavel Yampolsky**  - Skype: pavel.yampolsky.willhill Email: 2pavelya@gmail.com
-
-License
--------------
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-Acknowledgments
--------------
-Forked from: https://github.com/VaishnaviGunwante/selenium-cucumber-java
+For the versions available, see the [tags on this repository](https://github.com/your/project/tags).l
